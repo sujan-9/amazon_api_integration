@@ -144,7 +144,7 @@ class _HomePageState extends ConsumerState<HomePage> {
                                 crossAxisCount: 2,
                                 crossAxisSpacing: 16,
                                 mainAxisSpacing: 16,
-                                childAspectRatio: 0.8),
+                                childAspectRatio: 0.75),
                         itemCount: state.product.length,
                         itemBuilder: (context, index) {
                           return productCard(

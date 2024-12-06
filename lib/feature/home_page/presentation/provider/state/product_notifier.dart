@@ -98,8 +98,8 @@ class ProductNotifier extends StateNotifier<ProductState> {
       final searchData = data.products;
 
       final allProducts = [
-        ...newProducts,
         ...state.product,
+        ...newProducts,
       ];
 
       final searchProduct = [...state.searchProduct, ...searchData];
